@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
                   'polls.apps.PollsConfig',
-                  #'storesurge.apps.StoreSurgeConfig',
+                  'StoreSurge.apps.StoreSurgeConfig',
                   #'login.apps.loginConfig',
     'django.contrib.admin',
     'django.contrib.auth',
